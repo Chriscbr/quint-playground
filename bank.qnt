@@ -1,3 +1,6 @@
+// quint run bank.qt --invariant=no_negatives [--mbt]
+// quint verify bank.qt --invariant=no_negatives
+
 module bank {
   /// A state variable to store the balance of each account
   var balances: str -> int
